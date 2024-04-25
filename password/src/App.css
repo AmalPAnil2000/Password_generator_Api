@@ -1,0 +1,76 @@
+.password-generator {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dc2d2d;
+  }
+
+
+  /* PasswordGenerator.css */
+.main-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+  
+  
+  .password-generator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group, .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label, .checkbox-group label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .generate-password {
+    display: flex;
+    align-items: center;
+  }
+  
+  .generate-password input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .generate-password .copy-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .generate-password .copy-btn:hover {
+    background-color: #0056b3;
+  }
+  
